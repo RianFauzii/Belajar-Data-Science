@@ -1,0 +1,73 @@
+float = bilangan desimal 2.0,3.5
+integer = bulat 1,2,3
+string = kalimat 'ayam'
+list = dapat diedit( kumpulan objek) [,]
+tuples =tidak dapat diedit (kumpulan objek) (,)
+set = kumpulan objek yang tidak dapat diedit dan tidak ada duplikat {}
+dictionaries = kumpulan objek dengan kunci dan tidak mengenal urutan {:,}
+
+
+
+operasi bilangan :
+Operator	Simbol
+tambah	+
+kurang	-
+kali	*
+pangkat	**
+pembagian	/
+pembagian (dengan output pembulatan kebawah)	//
+hasil sisa pembagian	%
+
+
+
+
+aturan penulisan variabel :
+Ada beberapa hal yang perlu diperhatikan saat membuat nama variabel:
+
+Sebuah variabel harus di mulai dengan huruf atau karakter underscore _
+Ada baiknya variabel tidak dimulai dengan angka
+Sebuah variabel terdiri atas karakter alpha-numeric dan underscore (A-z, 0-9, dan _ )
+
+
+
+
+Variable ID
+Untuk mengidentifikasi setiap variabel, Python menggunakan sistem ID. ID ini akan secara otomatis diberikan oleh Python sehingga anda tidak usah khawatir.
+
+Cara mengecek ID:
+unggas = 'Ayam'
+id(unggas)
+
+
+
+
+
+**Kutip dalam string
+Untuk membuat string, digunakan tanda kutip (' atau ").
+Namun, bagaimana jika ingin membuat string yang memiliki tanda kutip didalamnya?
+Tergantung jenis kutip yang digunakan.
+Jika menggunakan kutip dua " untuk definisi string, maka bisa digunakan kutip satu di dalam teks.
+
+94641822714432
+
+94641822714432
+
+**string method
+**Method	Deskripsi
+capitalize()	Ubah karakter pertama pada string menjadi kapital
+find()	Cari string di dalam suatu string, dengan outputnya adalah posisi indeks string tersebut ditemukan
+lower()	Mengubah semua karakter di string menjadi huruf kecil
+lstrip()	Menghilangkan spasi berlebih pada bagian kiri string
+rstrip()	Menghilangkan spasi berlebih pada bagian kanan string
+split()	Memotong string pada karakter yang ditentukan, dan dioutput sebagai list
+strip()	Menghilangkan spasi berlebih pada semua sisi string
+swapcase()	Mengganti huruf besar pada string menjadi kecil, dan sebaliknya
+title()	Mengubah huruf pertama pada tiap kata didalam string sebagai huruf kapital
+upper()	Mengubah semua karakter di string menjadi huruf besar
+
+Your scores were:
+
+Visual 3
+Aural 6
+Read/Write 1
+Kinesthetic 10
